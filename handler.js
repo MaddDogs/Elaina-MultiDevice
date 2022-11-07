@@ -277,7 +277,7 @@ export async function handler(chatUpdate) {
                 if (!('isBanned' in chat))
                     chat.isBanned = false
                 if (!('welcome' in chat))
-                    chat.welcome = true
+                    chat.welcome = false
                 if (!('detect' in chat))
                     chat.detect = false
                 if (!('sWelcome' in chat))
@@ -291,7 +291,7 @@ export async function handler(chatUpdate) {
                 if (!('delete' in chat))
                     chat.delete = true
                 if (!('antiLink' in chat))
-                    chat.antiLink = false
+                    chat.antiLink = true
                 if (!('viewonce' in chat))
                     chat.viewonce = false
                 if (!('antiToxic' in chat))
@@ -311,14 +311,14 @@ export async function handler(chatUpdate) {
             } else
                 global.db.data.chats[m.chat] = {
                     isBanned: false,
-                    welcome: true,
+                    welcome: false,
                     detect: false,
                     sWelcome: '',
                     sBye: '',
                     sPromote: '',
                     sDemote: '',
                     delete: true,
-                    antiLink: false,
+                    antiLink: true,
                     viewonce: false,
                     antiToxic: true,
                     simi: false,
@@ -333,7 +333,7 @@ export async function handler(chatUpdate) {
             if (settings) {
                 if (!('self' in settings)) settings.self = false
                 if (!('autoread' in settings)) settings.autoread = false
-                if (!('restrict' in settings)) settings.restrict = false
+                if (!('restrict' in settings)) settings.restrict = true
                 if (!('anticall' in settings)) settings.anticall = true
                 if (!('autorestart' in settings)) settings.autorestart = false
                 if (!('restartDB' in settings)) settings.restartDB = 0
@@ -343,7 +343,7 @@ export async function handler(chatUpdate) {
                 autorestart: false,
                 anticall: true,
                 restartDB: 0,
-                restrict: false
+                restrict: true
             }
         } catch (e) {
             console.error(e)
