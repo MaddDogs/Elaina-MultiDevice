@@ -29,8 +29,8 @@ handler.all = async function (m) {
         
 		// Ini untuk command crator/owner
 		global.kontak2 = [
-         [owner[0], await conn.getName(owner[0] + '@s.whatsapp.net'), ' ', 'yanxiao021@gmail.com', true],
-         [owner[1], await conn.getName(owner[1] + '@s.whatsapp.net'), ' ', 'yanxiao021@gmail.com', true], // Kalo mau di tambah tinggal copy 1baris ini di tempel di bawahnya trs di edit dikit!
+         [owner[0], await conn.getName(owner[0] + '@s.whatsapp.net'), ' ', 'gaarasetyawan@gmail.com', true],
+         [owner[1], await conn.getName(owner[1] + '@s.whatsapp.net'), ' ', 'gaaraxploite@gmail.com', true], // Kalo mau di tambah tinggal copy 1baris ini di tempel di bawahnya trs di edit dikit!
         ]
         
 		// ucapan ini mah
@@ -52,7 +52,7 @@ handler.all = async function (m) {
 					description: wm3,
 					previewType: "PHOTO",
 					thumbnail: await (await fetch(pic)).buffer(),
-					sourceUrl: "https://github.com/ImYanXiao",					
+					sourceUrl: "https://github.com/gaara-ofc",					
 				}
 			}
 		}
@@ -106,9 +106,9 @@ handler.all = async function (m) {
     } }
 global.fakefb = {
          contextInfo: { externalAdReply: { showAdAttribution: true,
-            mediaUrl: "https://Facebook.com/zuck",
+            mediaUrl: "https://Facebook.com/gaarasetyawan",
             mediaType: "VIDEO",
-            description: "https://www.Facebook.com/zuck", 
+            description: "https://www.Facebook.com/gaarasetyawan", 
             title: wm3,
             body: wm,
             thumbnailUrl: pp,
@@ -210,7 +210,7 @@ global.fakefb = {
                "groupInviteMessage": {
                    "groupJid": "6285736178354-1625305606@g.us",
                    "inviteCode": "null",
-                   "groupName": "Kawan Elaina", 
+                   "groupName": "Kawan Gaara", 
                    "caption": wm, 
                    'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')
                }
@@ -282,7 +282,7 @@ function ucapan() {
 		res = "Selamat Dini hari 🌌"
 	}
 	if(time >= 4) {
-		res = "Selamat pagi ⛅"
+		res = "Selamat pagi �?"
 	}
 	if(time > 10) {
 		res = "Selamat siang 🌅"

@@ -20,7 +20,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
 ⬡ Views: ${viewH}
 ⬡ Upload: ${publishedTime}
 ⬡ Link: ${vid.url}
-╰────────⬣`, author.trim(), await( await conn.getFile(thumbnail)).data, ['📽VIDEO', `${usedPrefix}getvid ${url} 360`], false, { quoted: m, 'document': { 'url':'https://wa.me/12522518391' },
+╰────────⬣`, author.trim(), await( await conn.getFile(thumbnail)).data, ['📽VIDEO', `${usedPrefix}getvid ${url} 360`], false, { quoted: m, 'document': { 'url':'https://wa.me/6281326024103' },
 'mimetype': global.dpdf,
 'fileName': `𝕐𝕠𝕦𝕋𝕦𝕓𝕖 ℙ𝕝𝕒𝕪𝕤`,
 'fileLength': 666666666666666,
@@ -29,7 +29,7 @@ mediaType:  2,
 mediaUrl: `${url}`,
 title: `AUDIO SEDANG DIKIRIM...`,
 body: wm,
-sourceUrl: 'http://wa.me/12522518391', thumbnail: await ( await conn.getFile(thumbnail)).data
+sourceUrl: 'http://wa.me/6281326024103', thumbnail: await ( await conn.getFile(thumbnail)).data
   }
  } 
 })

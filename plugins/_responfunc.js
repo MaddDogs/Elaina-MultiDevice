@@ -30,8 +30,8 @@ export async function all(m) {
     }
     //Kontak
     global.kontak2 = [
-         [owner[0], await this.getName(owner[0] + '@s.whatsapp.net'), 'ɪᴍʏᴀɴxɪᴀᴏ', 'yanxiao021@gmail.com', true],
-         [owner[1], await this.getName(owner[1] + '@s.whatsapp.net'), 'ɪᴍʏᴀɴxɪᴀᴏ', 'yanxiao021@gmail.com', true], // Kalo mau di tambah tinggal copy 1baris ini di tempel di bawahnya trs di edit dikit!
+         [owner[0], await this.getName(owner[0] + '@s.whatsapp.net'), 'ī.am/Ꭰᥲʀκɴᴇꜱ複|', 'gaarasetyawan@gmail.com', true],
+         [owner[1], await this.getName(owner[1] + '@s.whatsapp.net'), 'ī.am/Ꭰᥲʀκɴᴇꜱ複|', 'gaaraxploite@gmail.com', true], // Kalo mau di tambah tinggal copy 1baris ini di tempel di bawahnya trs di edit dikit!
         ]
         //Ucapan
         global.ucapan = ucapan()
