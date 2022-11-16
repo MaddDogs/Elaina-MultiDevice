@@ -61,7 +61,7 @@ global.psaweria = 'https://saweria.com/gaaraofc' //Link Saweriamu Kalo Nggada Ke
 /*============== NOMOR ==============*/
 global.nomorbot = '6285325283099' //Nomor Bot
 global.nomorown = '6281326024103' //Nomor Owner
-global.namebot = 'Gaara BOT' //Nama Bot
+global.namebot = '𝐒𝐇𝐄𝐈𝐋𝐀𝐁𝐎𝐓' //Nama Bot
 global.nameown = 'ī.am/Ꭰᥲʀκɴᴇꜱ複|' // Nama Owner
 
 
@@ -99,9 +99,9 @@ global.APIKeys = { // APIKey Here
 // Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
 
 /*============== WATERMARK ==============*/
-global.wm = '                「 𝐆𝐚𝐚𝐫𝐚 𝙱𝙾𝚃 汉  」' //Main Watermark
+global.wm = '                「 𝐒𝐇𝐄𝐈𝐋𝐀𝐁𝐎𝐓-𝐌𝐃 汉  」' //Main Watermark
 global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘𝐆𝐚𝐚𝐫𝐚 - ᴄʜᴀɴ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = '⫹⫺ 𝐆𝐚𝐚𝐫𝐚 𝙱𝙾𝚃'
+global.wm3 = '⫹⫺ 𝐒𝐇𝐄𝐈𝐋𝐀𝐁𝐎𝐓-𝐌𝐃'
 global.botdate = `⫹⫺ 𝗛𝗮𝗿𝗶: ${week} ${date}`
 global.bottime = `𝗪𝗮𝗸𝘁𝘂 : ${wktuwib}`
 global.titlebot = '🎋 ┊ 𝗥𝗣𝗚 ʙᴏᴛ ᴡʜᴀᴛsᴀᴘᴘ'
@@ -371,9 +371,9 @@ global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
 global.stickpack = '.'
-global.stickauth = `☂︎\n𝐆\nl\n𝐚\n𝐚\n𝐫\n𝐚\n-\n𝗕\n𝗢\n𝗧\n✦\n\n⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
+global.stickauth = `☂︎\n𝐒\n𝐇\n𝐄\n𝐈\n𝐋\n𝐀\n-\n𝐁\n𝐎\n𝐓\n✦\n\n⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
 global.packname = 'Cʀᴇᴀᴛᴇᴅ Bʏ'
-global.packname2 = 'ᴄʀᴇᴀᴛᴇᴅ ʙʏ 𝐆𝐚𝐚𝐫𝐚 ʙᴏᴛᴢ'
+global.packname2 = 'ᴄʀᴇᴀᴛᴇᴅ ʙʏ 𝐒𝐇𝐄𝐈𝐋𝐀𝐁𝐎𝐓-𝐌𝐃'
 
 global.multiplier = 38 // The higher, The harder levelup
 
